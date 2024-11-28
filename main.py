@@ -1,5 +1,7 @@
 import HarcMenete
 import JatekMenete
+from Kezdoertekek import Jatekos
+from SzerencseProbaja import jo_vagy_balszerencse
 import Kezdoertekek
 from Kezdoertekek import Kezdoertekek
 import SzerencseProbaja
