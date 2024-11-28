@@ -1,6 +1,6 @@
 import random
 
-class Kezdoertekek:
+class Jatekos:
     def __init__(self, ugyesseg:int, eletero:int, szerencse:int):
         self.ugyesseg = ugyesseg
         self.eletero = eletero

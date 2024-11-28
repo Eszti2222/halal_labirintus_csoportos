@@ -1,4 +1,4 @@
 import HarcMenete
 import JatekMenete
-import Kezdoertekek
-import SzerencseProbaja
+from Kezdoertekek import Jatekos
+from SzerencseProbaja import jo_vagy_balszerencse
