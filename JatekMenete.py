@@ -1,4 +1,4 @@
-from Kezdoertekek import Kezdoertekek
+from Kezdoertekek import Jatekos
 #from HarcMenete import harc
 
 class Oldal:
@@ -7,7 +7,7 @@ class Oldal:
         self.dontes_oldalszamok = dontes_oldalszamok
         self.leiras = leiras
 
-    def esemeny(self, jatekos: Kezdoertekek) -> int:
+    def esemeny(self, jatekos: Jatekos) -> int:
         kovetkezo_oldal: int = 0
         if self.oldalszam == 215:
             jatekos.eletero -= 2
@@ -19,7 +19,7 @@ class Oldal:
 
         return kovetkezo_oldal
 
-def jatek(labirintus: list[Oldal], jatekos: Kezdoertekek):
+def jatek(labirintus: list[Oldal], jatekos: Jatekos):
     aktiv_oldal: Oldal = labirintus[0]
     kovetkezo_oldal: int = -1
     while kovetkezo_oldal != 0:
